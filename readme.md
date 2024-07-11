@@ -12,8 +12,8 @@ change the directory path in the next step from ~/.dotfiles to other)
   git clone git@github.com:SupakornSJB/dotfiles.git .dotfiles
 ```
 
-2. To use the dotfiles, Clone this repo and create the symlink from the
-dotfiles to your .config folder <br/>
+2. To use the dotfiles, Clone this repo and create symlinks from the
+.dotfiles directory to your .config directory (or other directory depending on the file)<br/>
 
 Use the following commands
 ```
@@ -24,8 +24,11 @@ Use the following commands
 ```
 
 3. Install dependencies of each app
-  - For nvim, install packer from repo and run :PackerSync (For more info, Go
+  - For nvim, install **packer** from [repo](https://github.com/wbthomason/packer.nvim) and run `:PackerSync` (For more info, Go
   to nvim submodule repo)
-  - For kitty, change the background to other pictures
+  - For kitty, you may want to change the background pictures and font
+    - Or try using JetbrainsMonoNL [Nerdfonts](https://www.nerdfonts.com/font-downloads)
   - For tmux, install and source the tmux config file
-  - For zsh, install oh-my-zsh
+    - `<C-space>R` to source file
+    - `<C-space>I` to install plugins
+  - For zsh, install [oh-my-zsh](https://ohmyz.sh/)

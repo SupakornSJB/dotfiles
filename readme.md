@@ -2,18 +2,18 @@
 
 This is the repository where I keep my config and dotfiles. <br/>
 
-Instruction on how to use can be seen below
+Instruction on how to use can be seen below.
 
 # Usage
 
-1. Clone this repo into the home directory (Or any directory you want, but
+1. Clone this repo into the home directory. (Or any directory you want, but
 change the directory path in the next step from ~/.dotfiles to other)
 ```
   git clone git@github.com:SupakornSJB/dotfiles.git .dotfiles
 ```
 
-2. To use the dotfiles, Clone this repo and create symlinks from the
-.dotfiles directory to your .config directory (or other directory depending on the file)<br/>
+2. To use the dotfiles, Create symlinks from the
+.dotfiles directory to your .config directory. (or other directory depending on the file)<br/>
 
 Use the following commands
 ```

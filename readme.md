@@ -27,7 +27,7 @@ Use the following commands
   - For nvim, install **packer** from [repo](https://github.com/wbthomason/packer.nvim) and run `:PackerSync` (For more info, Go
   to nvim submodule repo)
   - For kitty, you may want to change the background picture and the font
-    - Or try using the font that I using, JetbrainsMonoNL [Nerdfonts](https://www.nerdfonts.com/font-downloads)
+    - Or try using the font that I'm using, JetbrainsMonoNL [Nerdfonts](https://www.nerdfonts.com/font-downloads)
   - For tmux, install and source the tmux config file
     - `<C-space>R` to source file
     - `<C-space>I` to install plugins

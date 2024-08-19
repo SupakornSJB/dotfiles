@@ -20,7 +20,7 @@ Use the following commands
   ln -s ~/.dotfiles/nvim ~/.config/nvim
   ln -s ~/.dotfiles/kitty ~/.config/kitty
   ln -s ~/.dotfiles/tmux ~/.config/tmux
-  ln -s ~/.dotfiles/tmux-powerline ~/.config/tmux
+  ln -s ~/.dotfiles/tmux-powerline ~/.config/tmux-powerline
   ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 

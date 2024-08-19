@@ -20,6 +20,7 @@ Use the following commands
   ln -s ~/.dotfiles/nvim ~/.config/nvim
   ln -s ~/.dotfiles/kitty ~/.config/kitty
   ln -s ~/.dotfiles/tmux ~/.config/tmux
+  ln -s ~/.dotfiles/tmux-powerline ~/.config/tmux
   ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
@@ -28,7 +29,7 @@ Use the following commands
   to nvim submodule repo)
   - For kitty, you may want to change the background picture and the font
     - Or try using the font that I'm using, JetbrainsMonoNL [Nerdfonts](https://www.nerdfonts.com/font-downloads)
-  - For tmux, install and source the tmux config file
+  - For tmux, install `tpm` and source the tmux config file
     - `<C-space>R` to source file
     - `<C-space>I` to install plugins
   - For zsh, install [oh-my-zsh](https://ohmyz.sh/)

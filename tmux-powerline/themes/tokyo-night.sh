@@ -4,7 +4,7 @@
 
 TOKYO_NIGHT_BLUE="#82aaff"
 TOKYO_NIGHT_LIGHT_BLUE="#3b4261"
-TOKYO_NIGHT_DARK="#1b1d2b"
+TOKYO_NIGHT_DARK="#1e2030"
 TOKYO_NIGHT_TEXT="#7e87b3"
 
 if patched_font_in_use; then

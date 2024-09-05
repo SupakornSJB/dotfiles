@@ -113,3 +113,7 @@ export PATH="$HOME/flutter/flutter/bin:$PATH"
 PATH="$PATH":"$HOME/.dotfiles"
 
 bindkey -s ^f "tmux-sessionizer\r"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

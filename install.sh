@@ -9,12 +9,13 @@ echo " - kitty"
 echo " - neovim"
 echo " - tmux"
 echo " - zsh"
+echo " - fzf"
 read -p "Would you like to use Pacman to install these packages? (Arch Only) [y/n]: "
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
   echo "Initializing Install from Pacman"
   sudo pacman -Sy
-  sudo pacman -S kitty nvim tmux zsh 
+  sudo pacman -S kitty nvim tmux zsh fzf
   echo "Finishing Install from Pacman"
 fi
 

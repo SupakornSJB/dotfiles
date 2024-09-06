@@ -16,7 +16,13 @@ change the directory path in the next step from ~/.dotfiles to other)
   git clone git@github.com:SupakornSJB/dotfiles.git .dotfiles
 ```
 
-2. To use the dotfiles, Create symlinks from the
+2. Install `kitty nvim tmux zsh fzf` from pacman
+```
+  sudo pacman -Sy 
+  sudo pacman -S kitty nvim tmux zsh fzf
+```
+
+3. To use the dotfiles, Create symlinks from the
 .dotfiles directory to your .config directory. (or other directory depending on the file)<br/>
 
 Use the following commands
@@ -29,9 +35,10 @@ Use the following commands
   ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
-3. Install dependencies of each app
+4. Install dependencies of each app
   - For nvim, install **packer** from [repo](https://github.com/wbthomason/packer.nvim) and run `:PackerSync` (For more info, Go
   to nvim submodule repo)
+    - Note: Packer is likely to be unmaintained in the future, If you don't like that, use other nvim plugin such as LazyVim instead
   - For kitty, you may want to change the background picture and the font
     - Or try using the font that I'm using, JetbrainsMonoNL [Nerdfonts](https://www.nerdfonts.com/font-downloads)
   - For tmux, install `tpm` and source the tmux config file

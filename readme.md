@@ -1,10 +1,14 @@
 # What is this?
 
 This is the repository where I keep my config and dotfiles. <br/>
-
 Instruction on how to use can be seen below.
 
-# Usage
+# Usage (Install script - Experimental)
+
+Call the `install.sh` script in the terminal <br/>
+Note: This is a very experimental approach, backup your file in case any thing goes wrong
+
+# Usage (Manual)
 
 1. Clone this repo into the home directory. (Or any directory you want, but
 change the directory path in the next step from ~/.dotfiles to other)

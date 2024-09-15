@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+session_sentence=$(tmux ls | fzf --no-sort) 
+
+if [[ -z "$session_sentence" ]]; then
+  exit 0
+fi
+
+session_id=$(cut -d ':' -f 1 <<< $session_sentence)
+
+if [[ -z $TMUX ]]; then
+    tmux attach-session -t $session_id
+else
+    tmux switch-client -t $session_id
+fi

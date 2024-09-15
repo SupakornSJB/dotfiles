@@ -114,6 +114,8 @@ export PATH="$HOME/flutter/flutter/bin:$PATH"
 PATH="$PATH":"$HOME/.dotfiles"
 
 bindkey -s ^f "tmux-sessionizer\r"
+bindkey -s ^r "tmux-reattach\r"
+bindkey -s ^a "tmux a\r"
 
 eval $(thefuck --alias)
 

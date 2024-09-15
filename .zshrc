@@ -115,6 +115,7 @@ PATH="$PATH":"$HOME/.dotfiles"
 
 bindkey -s ^f "tmux-sessionizer\r"
 
+eval $(thefuck --alias)
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)

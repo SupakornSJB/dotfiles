@@ -111,13 +111,13 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/flutter/flutter/bin:$PATH"
 
-PATH="$PATH":"$HOME/.dotfiles"
+PATH="$PATH":"$HOME/dotfiles"
 
 bindkey -s ^f "tmux-sessionizer\r"
 bindkey -s ^r "tmux-reattach\r"
 bindkey -s ^a "tmux a\r"
 
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
@@ -125,3 +125,6 @@ source <(ng completion script)
 if [ ! "$TMUX" ]; then  
   neofetch
 fi
+
+# Created by `pipx` on 2024-12-10 11:56:44
+export PATH="$PATH:/home/supakorn/.local/bin"

@@ -113,11 +113,24 @@ export PATH="$HOME/flutter/flutter/bin:$PATH"
 
 PATH="$PATH":"$HOME/.dotfiles"
 
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 bindkey -s ^f "tmux-sessionizer\r"
 bindkey -s ^r "tmux-reattach\r"
+bindkey -s ^w "tmux-start-workspace\r"
 bindkey -s ^a "tmux a\r"
+bindkey -s ^e "y\r"
+bindkey -s ^g "lazygit\r"
 
 eval $(thefuck --alias)
+eval "$(zoxide init zsh)"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)

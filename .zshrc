@@ -129,8 +129,8 @@ bindkey -s ^a "tmux a\r"
 bindkey -s ^e "y\r"
 bindkey -s ^g "lazygit\r"
 
-eval $(thefuck --alias)
-eval "$(zoxide init zsh)"
+# eval $(thefuck --alias)
+# eval "$(zoxide init zsh)"
 
 # Load Angular CLI autocompletion.
 # source <(ng completion script)

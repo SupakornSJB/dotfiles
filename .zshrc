@@ -111,7 +111,7 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/flutter/flutter/bin:$PATH"
 
-PATH="$PATH":"$HOME/.dotfiles"
+PATH="$PATH":"$HOME/dotfiles"
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd

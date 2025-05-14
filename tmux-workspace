@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 
-# echo "Would you like to start a workspace? (Y/N): " 
-# read confirm
-
-# if [[ $confirm = [Yy] || $confirm == [yY][eE][sS] ]] ; then
-  echo "Starting workspace..."
-  tmux rename-window "nvim"
-  tmux new-window "lazygit"
-  tmux new-window  
-  nvim
-# fi
+echo "Starting workspace..."
+tmux rename-window "nvim"
+tmux new-window "lazygit"
+tmux new-window  
+nvim
